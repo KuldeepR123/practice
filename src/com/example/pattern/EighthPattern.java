@@ -25,5 +25,8 @@ public class EighthPattern {
         EighthPattern.getPattern(17);
         String str = "1201";
         System.out.println(str.charAt(str.length()-2));
+
+
+        System.out.println(str.substring(str.length()-3));
     }
 }

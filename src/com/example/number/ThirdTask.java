@@ -8,11 +8,6 @@ public class ThirdTask {
         int n = scan.nextInt();
         int step = scan.nextInt();
         int start = 1;
-        /*while(count!=n){
-            System.out.println(start);
-            start+=step;
-            count++;
-        }*/
         for(int i=0; i<n; i++){
             System.out.println(start);
             start+=step+1;
